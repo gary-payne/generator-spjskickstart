@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
+    "globals": {
+        "d3": false
+    },
+    "rules": {
+        "eqeqeq": 1,
+        ////////// ECMAScript 6 ////////// 
+        "no-var": 1,          // require let or const instead of var (off by default) 
+        ////////// Variables //////////
+        "no-undef": 2,                    // disallow use of undeclared variables unless mentioned in a /*global */ block 
+	    "no-undef-init": 0,               // disallow use of undefined when initializing variables 
+        "no-undefined": 2,                // disallow use of undefined variable (off by default) 
+        "no-unused-vars": 1,              // disallow declaration of variables that are not used in the code 
+        "no-use-before-define": 2        // disallow use of variables before they are defined 
+         
+    }
+}
